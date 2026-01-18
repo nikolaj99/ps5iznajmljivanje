@@ -41,7 +41,7 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Iznajmljivanje  <span className="hidden md:inline">Sony PS5 konzola</span> <span> </span>{' '}
+      Iznajmljivanje Sony PS5 konzola <span> </span>{' '}
       <span className="sm:whitespace-nowrap"> </span>
     </>
   ),
