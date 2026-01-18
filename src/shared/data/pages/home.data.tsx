@@ -67,7 +67,6 @@ export const heroHome: HeroProps = {
   },
   image: {
     src: heroImg,
-    height: 2250,
     alt: 'Hero TailNext',
   },
 };
