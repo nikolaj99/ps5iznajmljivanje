@@ -9,17 +9,7 @@ import {
 import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
 
 // Announcement data
-export const announcementData: AnnouncementProps = {
-  title: 'NEW',
-  callToAction: {
-    text: 'This template is made with Next.js 14 using the new App Router »',
-    href: 'https://nextjs.org/blog/next-14',
-  },
-  callToAction2: {
-    text: 'Follow @onWidget on Twitter',
-    href: 'https://twitter.com/intent/user?screen_name=onwidget',
-  },
-};
+
 
 // Header data
 export const headerData: HeaderProps = {
