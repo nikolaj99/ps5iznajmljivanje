@@ -28,47 +28,46 @@ import {
   TeamProps,
   TestimonialsProps,
 } from '../../types';
-import heroImg from '~/assets/images/hero.jpg';
+import heroImg from '~/assets/images/sonyhero.png';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
 import typescriptLogo from '~/assets/images/typescript-logo.png';
-import cameraFrontImg from '~/assets/images/camera-front.jpg';
-import cameraBackImg from '~/assets/images/camera-back.jpg';
+import vizual1Img from '~/assets/images/vizual1.jpg';
+import vizual2Img from '~/assets/images/vizual2.jpg';
 import gasImg from '~/assets/images/gas.jpg';
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
+      Iznajmljivanje  <span className="hidden md:inline">Sony PS5 konzola</span> <span> </span>{' '}
+      <span className="sm:whitespace-nowrap"> </span>
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
+          
         </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
+        Brza i besplatna dostava na vašu adresu
       </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+     
     </>
   ),
   callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
-    targetBlank: true,
+    text: 'Iznajmi sad',
+    href: '/contact',
+    
   },
   callToAction2: {
-    text: 'Learn more',
+    text: 'Saznaj više',
     href: '/',
   },
   image: {
     src: heroImg,
+    height: 2250,
     alt: 'Hero TailNext',
   },
 };
@@ -109,73 +108,55 @@ export const featuresHome: FeaturesProps = {
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap">TailNext</span>
+        Šta dobijate <span className="whitespace-nowrap">od nas</span>
       </>
     ),
     subtitle:
-      "Elevating Your Digital Presence: Discover the Synergies Unleashed in Our Platform's Core Strengths, from Seamless Integration to Open Collaboration.",
-    tagline: 'Features',
+      "Unapredite svoje gaming iskustvo uz pouzdanu uslugu iznajmljivanja PlayStation 5 konzole. Fokusirani smo na kvalitet, jednostavnost i vrhunski doživljaj — od trenutka rezervacije do poslednjeg sata igranja.",
+    tagline: 'Ponuda',
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
+      title: 'Sony PlayStation 5 – Iznajmljivanje',
       description:
-        'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+        'Najnovija generacija konzole koja donosi vrhunske performanse, brzo učitavanje i izuzetnu grafiku za potpuno uživanje u igrama.',
       icon: IconBrandTailwind,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+      
     },
     {
-      title: 'Ready-to-use Components',
+      title: 'Originalni DualSense kontroleri',
       description:
-        'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+        'Uživajte u naprednim vibracijama i adaptivnim okidačima koji svaku igru čine realističnijom i uzbudljivijom.',
       icon: IconComponents,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+      
     },
     {
-      title: 'Best Practices',
+      title: 'Najpopularnije igre',
       description:
-        'By prioritizing maintainability and scalability through coding standards and design principles, your website stays robust and efficient.',
+        'Mogućnost iznajmljivanja ili uključivanja top PS5 igara — FIFA, GTA, Spider-Man, God of War i mnoge druge.',
       icon: IconListCheck,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+      
     },
     {
-      title: 'Excellent Page Speed',
+      title: 'Brza i jednostavna isporuka',
       description:
-        'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+        'Brza dostava i preuzimanje bez komplikacija. Sve je spremno za igranje čim konzola stigne kod vas.',
       icon: IconRocket,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+      
     },
     {
-      title: 'Search Engine Optimization (SEO)',
+      title: 'Proverena i održavana oprema',
       description:
-        "Boost online visibility with our SEO-friendly website. Effective strategies and practices enhance your website's search engine ranking, making it easier for users to find your content.",
+        "Sve konzole su tehnički proverene, redovno čišćene i spremne za maksimalne performanse bez problema.",
       icon: IconArrowsRightLeft,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+      
     },
     {
-      title: 'Open to new ideas and contributions',
+      title: 'Otvoreni smo za dogovor i saradnju',
       description:
-        'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
+        'Imate posebne zahteve, događaj, turnir ili ideju? Tu smo da pronađemo najbolje rešenje za vas.',
       icon: IconBulb,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+      
     },
   ],
 };
@@ -209,7 +190,7 @@ export const contentHomeOne: ContentProps = {
     },
   ],
   image: {
-    src: cameraFrontImg,
+    src: vizual1Img,
     alt: 'Colorful Image',
   },
   isReversed: false,
@@ -243,7 +224,7 @@ export const contentHomeTwo: ContentProps = {
     },
   ],
   image: {
-    src: cameraBackImg,
+    src: vizual2Img,
     alt: 'Colorful Image',
   },
   isReversed: true,
@@ -366,35 +347,43 @@ export const faqs2Home: FAQsProps = {
   id: 'faqsTwo-on-home',
   hasBackground: false,
   header: {
-    title: 'Frequently Asked Questions',
+    title: 'Često postavljana pitanja',
     subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
-    tagline: 'FAQS',
+      '',
+    tagline: 'FAQ',
   },
   items: [
     {
-      title: 'What do I need to start?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'Kako funkcioniše iznajmljivanje PlayStation 5 konzole?',
+      description: `Iznajmljivanje je jednostavno — kontaktirate nas, odaberete period najma i termin preuzimanja ili dostave. Konzola dolazi spremna za igranje.`,
     },
     {
-      title: 'How to install the NextJS + Tailwind CSS template?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      title: 'Šta dobijam uz PS5 konzolu?',
+      description: `Uz PlayStation 5 dobijate:
+
+PS5 konzolu,
+
+Originalni DualSense kontroler,
+
+Sve potrebne kablove,
+
+Mogućnost iznajmljivanja igara po dogovoru`,
     },
     {
-      title: "What's something that you completely don't understand?",
+      title: "Koliko traje period najma?",
       description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
     },
     {
-      title: "What's an example of when you changed your mind?",
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      title: "Da li mogu produžiti najam?",
+      description: `Naravno. Produženje je moguće u skladu sa dostupnošću konzole.`,
     },
     {
-      title: 'What is something that you would really like to try again?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+      title: 'Da li su konzole proverene i ispravne?',
+      description: `Da. Sve konzole su redovno servisirane, očišćene i testirane kako bismo obezbedili maksimalan kvalitet i bezbedno korišćenje.`,
     },
     {
-      title: 'If you could only ask one question to each person you meet, what would that question be?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      title: 'Šta ako dođe do kvara tokom korišćenja?',
+      description: `U slučaju tehničkog problema, obavezno nas odmah kontaktirajte. Problem rešavamo u najkraćem mogućem roku.`,
     },
   ],
 };
@@ -413,7 +402,7 @@ export const pricingHome: PricingProps = {
     {
       title: 'basic',
       price: 29,
-      period: 'per month',
+      period: '1 dan',
       items: [
         {
           description: 'Etiam in libero, et volutpat',
@@ -438,7 +427,7 @@ export const pricingHome: PricingProps = {
     {
       title: 'standard',
       price: 69,
-      period: 'per month',
+      period: '2 dana',
       items: [
         {
           description: 'Proin vel laoreet',
@@ -464,7 +453,7 @@ export const pricingHome: PricingProps = {
     {
       title: 'premium',
       price: 199,
-      period: 'per month',
+      period: '3 dana',
       items: [
         {
           description: 'Curabitur suscipit risus',

@@ -3,17 +3,16 @@ import { HeroProps } from '~/shared/types';
 
 // Hero data on Pricing page *******************
 export const heroPricing: HeroProps = {
-  title: 'Plans and Prices',
+  title: 'Paketi i Cene',
   subtitle: (
     <>
       <span className="hidden md:inline">
-        {`Here, you'll find a clear breakdown of our service plans and their respective features. Whether you're a small
-        business or a large enterprise, we have options tailored to your needs.`}
+        {`Pregled paketa iznajmljivanja PS5 konzola. Za iznajmljivanje na više dana, cena je po dogovoru – kontaktirajte nas i pronaćićemo najbolje rešenje za vas.`}
       </span>{' '}
-      You can choose the plan that best suits your goals!
+      Izaberite paket koji vam najviše odgovara!
     </>
   ),
-  tagline: 'Demo Pricing Page',
+  tagline: 'Cenovnik',
 };
 
 // Pricing data on Pricing page *******************
@@ -21,91 +20,91 @@ export const pricingPricing: PricingProps = {
   id: 'pricing-on-pricing',
   hasBackground: true,
   header: {
-    title: 'Our plans',
+    title: 'Naši paketi',
     subtitle: (
       <>
-        Discover our flexible pricing options designed to fit your needs perfectly.{' '}
-        <span className="hidden md:inline">{`No matter the size of your project, we have the right plan for you.`}</span>
+        Otkrijte fleksibilne cene za iznajmljivanje PlayStation 5 konzole.{' '}
+        <span className="hidden md:inline">{`Bez obzira da li je u pitanju kućna zabava, turnir ili događaj, imamo paket za vas.`}</span>
       </>
     ),
   },
   prices: [
     {
       title: 'basic',
-      subtitle: 'Optimal choice for personal use',
-      price: 29,
-      period: 'per month',
+      subtitle: 'Optimalni izbor za PS5 na dan',
+      price: 3000,
+      period: '1 dan',
       items: [
         {
-          description: 'Access to a selection of professionally designed website templates.',
+          description: 'Ponuda sadrži preko 300 igara — korisnik bira igre po želji.',
         },
         {
-          description: 'Email support to assist you with any questions or issues.',
+          description: 'Svi potrebni kablovi (HDMI, napajanje, punjači).',
         },
         {
-          description: 'Adequate storage space for small to medium-sized websites.',
+          description: 'Sony PlayStation 5 konzola sa 2 džojstika.',
         },
         {
-          description: 'Core features for a functional online presence, such as SEO tools and contact forms.',
+          description: 'Besplatna dostava i montaža u Beogradu.',
         },
       ],
       callToAction: {
-        targetBlank: true,
-        text: 'Free 7-day trial',
-        href: '/',
+        
+        text: 'Iznajmi sad',
+        href: '/contact',
       },
       hasRibbon: false,
     },
     {
       title: 'standard',
-      subtitle: 'Optimal choice for small teams',
-      price: 69,
-      period: 'per month',
+      subtitle: 'Optimalni izbor ako znate ekipu',
+      price: 5000,
+      period: '2 dana',
       items: [
         {
-          description: 'A larger variety of premium website templates to choose from.',
+          description: 'Ponuda sadrži preko 300 igara — korisnik bira igre po želji.',
         },
         {
-          description: 'Faster response times and priority customer support.',
+          description: 'Svi potrebni kablovi (HDMI, napajanje, punjači).',
         },
         {
-          description: 'More storage space to accommodate growing websites and content.',
+          description: 'Sony PlayStation 5 konzola sa 2 džojstika.',
         },
         {
-          description: 'Enable e-commerce capabilities to sell products or services online.',
+          description: 'Besplatna dostava i montaža u Beogradu.',
         },
       ],
       callToAction: {
-        targetBlank: true,
-        text: 'Free 15-day trial',
-        href: '/',
+       
+        text: 'Iznajmi sad uz 1 dan GRATIS',
+        href: '/contact',
       },
       hasRibbon: true,
-      ribbonTitle: 'Popular',
+      ribbonTitle: 'Popularno',
     },
     {
       title: 'premium',
-      subtitle: 'Optimal choice for companies',
-      price: 199,
-      period: 'per month',
+      subtitle: 'Optimalni izbor za opasnu ekipu igrača',
+      price: 6500,
+      period: '3 dana',
       items: [
         {
-          description: 'Access to exclusive and customizable premium website templates.',
+          description: 'Ponuda sadrži preko 300 igara — korisnik bira igre po želji.',
         },
         {
-          description: 'Round-the-clock customer support for immediate assistance.',
+          description: 'Svi potrebni kablovi (HDMI, napajanje, punjači).',
         },
         {
-          description: 'No limits on storage, ideal for extensive websites and media.',
+          description: 'Sony PlayStation 5 konzola sa 2 džojstika.',
         },
         {
-          description: 'Advanced SEO, analytics, and marketing tools for optimal performance and growth.',
+          description: 'Besplatna dostava i montaža u Beogradu.',
         },
       ],
       callToAction: {
-        targetBlank: true,
-        text: 'Free 30-day trial',
-        href: '/',
+        
+        text: 'Iznajmi sad uz 1 dan GRATIS',
+        href: '/contact',
       },
       hasRibbon: false,
     },
@@ -150,13 +149,13 @@ export const comparisonPricing: ComparisonProps = {
       title: 'basic',
       items: [
         {
-          title: 'Free 7-day trial',
+          title: 'Bez dodatnih dana',
         },
         {
           title: 'Limited',
         },
         {
-          title: '$29',
+          title: '3000 RSD',
         },
         {
           title: false,
@@ -177,13 +176,13 @@ export const comparisonPricing: ComparisonProps = {
       title: 'standard',
       items: [
         {
-          title: 'Free 15-day trial',
+          title: '1 dan GRATIS',
         },
         {
           title: 'Unlimited',
         },
         {
-          title: '$69',
+          title: '5000 RSD',
         },
         {
           title: false,
@@ -204,13 +203,13 @@ export const comparisonPricing: ComparisonProps = {
       title: 'premium',
       items: [
         {
-          title: 'Free 30-day trial',
+          title: '1 dan GRATIS',
         },
         {
           title: 'Unlimited',
         },
         {
-          title: '$199',
+          title: '6500 RSD',
         },
         {
           title: true,

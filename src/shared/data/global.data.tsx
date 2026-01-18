@@ -25,53 +25,27 @@ export const announcementData: AnnouncementProps = {
 export const headerData: HeaderProps = {
   links: [
     {
-      label: 'Pages',
-      icon: IconChevronDown,
-      links: [
-        {
-          label: 'Services',
-          href: '/services',
-        },
-        {
-          label: 'Pricing',
-          href: '/pricing',
-        },
-        {
-          label: 'About us',
-          href: '/about',
-        },
-        {
-          label: 'Contact us',
-          href: '/contact',
-        },
-        {
-          label: 'FAQs',
-          href: '/faqs',
-        },
-        {
-          label: 'Terms & Conditions',
-          href: '/terms',
-        },
-        {
-          label: 'Privacy Policy',
-          href: '/privacy',
-        },
-      ],
+      label: 'Početna',
+      href: '/',
     },
     {
-      label: 'Blog',
+      label: 'Cenovnik',
+      href: '/pricing',
+    },
+    {
+      label: 'Igre',
       href: '/blog',
     },
     {
-      label: 'Contact',
+      label: 'Kontakt',
       href: '/contact',
     },
   ],
   actions: [
     {
-      text: 'Download',
-      href: 'https://github.com/onwidget/tailnext',
-      targetBlank: true,
+      text: 'Iznajmi',
+      href: '/contact',
+      
     },
   ],
   isSticky: true,
@@ -229,20 +203,20 @@ export const footerData2: FooterProps = {
   links: [
     {
       label: 'Terms & Conditions',
-      href: '/terms',
+      href: '/',
     },
     {
       label: 'Privacy Policy',
-      href: '/privacy',
+      href: '/',
     },
   ],
   columns: [
     {
-      title: 'Address',
+      title: 'Adresa',
       texts: ['51 Phasellus Avenue Maecenas', 'Aliquam, AQ 52098'],
     },
     {
-      title: 'Phone',
+      title: 'Telefon',
       texts: ['Reception: +105 123 4567', 'Office: +107 235 7890'],
     },
     {
@@ -251,11 +225,8 @@ export const footerData2: FooterProps = {
     },
   ],
   socials: [
-    { label: 'Twitter', icon: IconBrandTwitter, href: '#' },
     { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
     { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
-    { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
   ],
   footNote: (
     <div className="mr-4 rtl:mr-0 rtl:ml-4 text-sm">
@@ -264,10 +235,10 @@ export const footerData2: FooterProps = {
         Made by{' '}
         <a
           className="font-semibold text-slate-900 dark:text-gray-200 hover:text-blue-600 hover:underline dark:hover:text-blue-600"
-          href="https://onwidget.com/"
+          href=""
         >
           {' '}
-          onWidget
+          CF Studio
         </a>{' '}
         · All rights reserved.
       </span>

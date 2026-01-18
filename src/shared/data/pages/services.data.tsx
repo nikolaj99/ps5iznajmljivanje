@@ -17,9 +17,9 @@ import {
   TestimonialsProps,
 } from '~/shared/types';
 
-import heroImg from '~/assets/images/hero.jpg';
-import cameraFrontImg from '~/assets/images/camera-front.jpg';
-import cameraBackImg from '~/assets/images/camera-back.jpg';
+import heroImg from '~/assets/images/sonyhero.png';
+import vizual1Img from '~/assets/images/vizual1.jpg';
+import vizual2Img from '~/assets/images/vizual2.jpg';
 
 // Hero data on Services page *******************
 export const heroServices: HeroProps = {
@@ -102,7 +102,7 @@ export const contentServicesOne: ContentProps = {
     },
   ],
   image: {
-    src: cameraFrontImg,
+    src: vizual1Img,
     alt: 'Colorful Image',
   },
   isReversed: true,
@@ -136,7 +136,7 @@ export const contentServicesTwo: ContentProps = {
     },
   ],
   image: {
-    src: cameraBackImg,
+    src: vizual2Img,
     alt: 'Colorful Image',
   },
   isReversed: false,

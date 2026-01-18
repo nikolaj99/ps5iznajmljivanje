@@ -556,7 +556,7 @@ export const faqsAbout: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+      '',
     tagline: 'FAQS',
   },
   items: [

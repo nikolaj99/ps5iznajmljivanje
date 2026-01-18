@@ -15,8 +15,7 @@ const Page = () => {
     <>
       <Hero {...heroPricing} />
       <Pricing {...pricingPricing} />
-      <Comparison {...comparisonPricing} />
-      <FAQs3 {...faqs3Pricing} />
+      
     </>
   );
 };

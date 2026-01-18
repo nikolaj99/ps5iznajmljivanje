@@ -38,20 +38,14 @@ const Content = ({
           />
         </div>
         <div aria-hidden="true" className="mt-10 md:mt-0 md:basis-1/2">
-          {image && (
-            <div className="relative m-auto max-w-4xl">
-              <Image
-                className="mx-auto w-full rounded-lg shadow-lg bg-gray-400 dark:bg-slate-700"
-                src={image.src}
-                width={828}
-                height={828}
-                alt={image.alt}
-                sizes="(max-width: 768px) 100vw, 432px"
-                placeholder="blur"
-                quality={50}
-              />
-            </div>
-          )}
+          <Image
+  className="mx-auto w-[600px] h-auto rounded-lg"
+  src={image.src}
+  width={828}
+  height={828}
+  alt={image.alt}
+/>
+
         </div>
       </div>
     </div>

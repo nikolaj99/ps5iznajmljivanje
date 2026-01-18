@@ -4,14 +4,14 @@ import { HeroProps } from '~/shared/types';
 
 // Hero data on Contact page *******************
 export const heroContact: HeroProps = {
-  title: 'Get in touch with us',
+  title: 'Kontaktirajte nas',
   subtitle: (
     <>
-      <span className="hidden md:inline">{`Thank you for considering us for your project! We're excited to hear from you.`}</span>{' '}
-      {`Our team can assist you in building your dream website.`}
+      <span className="hidden md:inline">{`Hvala vam što ste nas izabrali! Tu smo da odgovorimo na sva vaša pitanja i pomognemo vam oko iznajmljivanja PlayStation 5 konzole.`}</span>{' '}
+      
     </>
   ),
-  tagline: 'Demo Contact Page',
+  tagline: 'Kontakt strana',
 };
 
 // Contact data on Contact page *******************
@@ -45,28 +45,28 @@ export const contact2Contact: ContactProps = {
     },
   ],
   form: {
-    title: 'Ready to Get Started?',
+    title: 'Spremni da rezervišete?',
     inputs: [
       {
         type: 'text',
-        label: 'First name',
+        label: 'Ime',
         name: 'name',
         autocomplete: 'off',
-        placeholder: 'First name',
+        placeholder: 'Ime',
       },
       {
         type: 'text',
-        label: 'Last name',
+        label: 'Prezime',
         name: 'lastName',
         autocomplete: 'off',
-        placeholder: 'Last name',
+        placeholder: 'Prezime',
       },
       {
         type: 'email',
-        label: 'Email address',
+        label: 'Email adresa',
         name: 'email',
         autocomplete: 'on',
-        placeholder: 'Email address',
+        placeholder: 'Email adresa',
       },
     ],
     radioBtns: {
@@ -114,36 +114,37 @@ export const contact2Contact: ContactProps = {
 export const features2Contact: FeaturesProps = {
   columns: 3,
   header: {
-    title: 'Support Center',
-    subtitle: 'Looking for something in particular?',
+    title: 'Podrška i informacije',
+    subtitle: 'Brzo i jednostavno do dogovora',
   },
   items: [
     {
-      title: 'Have a question?',
-      description: 'See our frequently asked questions',
+      title: 'Česta pitanja',
+      description: 'Odgovori na najčešća pitanja',
       icon: IconHelp,
       callToAction: {
-        text: 'Go to FAQ page',
-        href: '/faqs',
+        text: 'Pogledaj FAQ',
+        href: '/',
       },
     },
     {
-      title: 'Chat with us',
-      description: 'Live chat with our support team',
+      title: 'WhatsApp kontakt',
+      description: 'Pišite nam direktno',
       icon: IconMessages,
       callToAction: {
-        text: 'Write to us',
-        href: '/',
+        text: 'Piši na WhatsApp',
+        href: 'https://wa.me/381612237516',
       },
     },
     {
-      title: 'Get help',
-      description: 'Speak to our team today',
-      icon: IconHeadset,
+      title: 'Pozovi nas',
+      description: 'Dogovor u par minuta',
+      icon: IconPhoneCall,
       callToAction: {
-        text: 'Call us',
-        href: '/',
+        text: 'Pozovi odmah',
+        href: 'tel:0612237516',
       },
     },
   ],
 };
+

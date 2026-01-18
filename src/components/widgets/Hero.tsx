@@ -27,20 +27,18 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: 
             </div>
           </div>
           {image && (
-            <div className="relative m-auto max-w-5xl">
-              <Image
-                className="mx-auto h-auto w-full rounded-md bg-gray-400 dark:bg-slate-700"
-                src={image.src}
-                alt={image.alt}
-                width={1024}
-                height={607}
-                sizes="(max-width: 64rem) 100vw, 1024px"
-                loading="eager"
-                placeholder="blur"
-                priority
-              />
-            </div>
-          )}
+  <div className="relative m-auto max-w-5xl">
+    <Image
+      className="mx-auto h-auto w-full rounded-md"
+      src={image.src}
+      alt={image.alt}
+      quality={100}
+      sizes="(max-width: 64rem) 100vw, 1280px"
+      priority
+    />
+  </div>
+)}
+
         </div>
       </div>
     </section>
