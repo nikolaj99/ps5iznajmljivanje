@@ -9,7 +9,17 @@ import {
 import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
 
 // Announcement data
-
+export const announcementData: AnnouncementProps = {
+  title: 'Game Hub tim',
+  callToAction: {
+    text: '',
+    href: '',
+  },
+  callToAction2: {
+    text: '',
+    href: '',
+  },
+};
 
 // Header data
 export const headerData: HeaderProps = {
