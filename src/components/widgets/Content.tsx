@@ -38,13 +38,18 @@ const Content = ({
           />
         </div>
         <div aria-hidden="true" className="mt-10 md:mt-0 md:basis-1/2">
-          <Image
-  className="mx-auto w-[600px] h-auto rounded-lg"
-  src={image.src}
-  width={828}
-  height={828}
-  alt={image.alt}
-/>
+          {image && (
+  <div aria-hidden="true" className="mt-10 md:mt-0 md:basis-1/2">
+    <Image
+      className="mx-auto w-[600px] h-auto rounded-lg"
+      src={image.src}
+      width={828}
+      height={828}
+      alt={image.alt}
+    />
+  </div>
+)}
+
 
         </div>
       </div>
